@@ -1,3 +1,5 @@
+note: can be run from jupyter notebook as well if preferred.
+# Windows
 ## Setting up the conda environment
 1. Initialisation
 ```
@@ -9,4 +11,13 @@ pip install cellpose
 ```
 conda install ipykernel
 python -m ipykernel install --user --name=cellpose
+```
+
+# Mac
+https://forum.image.sc/t/cellpose-on-macos-m1-pro-apple-silicon-arm64/68018/4
+```
+conda create -y -n cellpose-env python=3.9 pyqt imagecodecs pyqtgraph
+conda activate cellpose-env
+pip install cellpose
+
 ```
