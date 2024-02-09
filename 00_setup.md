@@ -7,6 +7,7 @@ note: can be run from jupyter notebook as well if preferred.
 conda create -n cellpose pytorch=1.8.2 cudatoolkit=10.2 -c pytorch-lts
 conda activate cellpose
 pip install cellpose
+pip install "cellpose[gui]"
 ```
 2. Create kernel for Jupyter Notebook
 ```
