@@ -471,7 +471,7 @@ torchsummary==1.5.1
 torchtext==0.16.0
 torchvf==0.1.4
 torchvision==0.16.0+cu121
-tornado==6.3.2
+tornado==6.3.3
 tqdm==4.66.2
 traitlets==5.7.1
 traittypes==0.2.1
