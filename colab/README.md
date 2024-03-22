@@ -5,7 +5,7 @@
 ## 01_run_cellpose_pretrained_models.ipynb
 - Notebook to run pre-trained Cellpose models (v2.2.2) on a single microscopy slice.
 
-<img alt="Flowchart of the notebook: A test slice and model parameters are used to run pre-trained models. The output is .tiff files of the predictions.", src="retinanalysis/colab/.imgs/01_flowchart.svg"/>
+<img alt="Flowchart of the notebook: A test slice and model parameters are used to run pre-trained models. The output is .tiff files of the predictions." src="retinanalysis/colab/.imgs/01_flowchart.svg"/>
 
 ## 02_HITL_finetuning.ipynb
 - Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
