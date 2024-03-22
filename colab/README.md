@@ -3,12 +3,14 @@
 
 # Main
 ## 01_run_cellpose_pretrained_models.ipynb
-- Notebook to run pre-trained Cellpose models (v2.2.2) on a single microscopy slice.
+- Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a single microscopy slice.
 
-<img alt="Flowchart of the notebook: A test slice and model parameters are used to run pre-trained models. The output is .tiff files of the predictions." src="retinanalysis/colab/.imgs/01_flowchart.svg"/>
+<img alt="Flowchart of the notebook for running all pre-trained models." src=".imgs/01_flowchart.svg"/>
 
 ## 02_HITL_finetuning.ipynb
 - Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
+
+<img alt="Flowchart of the notebook for finetuning a pre-trained model." src=".imgs/02_flowchart.svg"/>
 
 ## 03_run_cellpose_single_model.ipynb
 - Notebook to run a (finetuned) Cellpose model on one or more microscopy stacks.
@@ -21,5 +23,9 @@
 
 # Additional
 
-## 01x_model_output_comparison
+## model_output_comparison.ipynb
+- Notebook to compare manual and predicted segmentations (precision, recall, F1-score, Jaccard Indices)
 
+
+# References
+1. Pachitariu, M., Stringer, C. Cellpose 2.0: how to train your own model. Nat Methods 19, 1634–1641 (2022). https://doi.org/10.1038/s41592-022-01663-4
