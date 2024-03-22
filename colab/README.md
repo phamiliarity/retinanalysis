@@ -1,29 +1,29 @@
 # Overview
-[complete flowchart]
+<img alt="Legend for the flowchart" src=".imgs/legend.svg"/>
 
-# Main
-## 01_run_cellpose_pretrained_models.ipynb
+## Main notebooks
+### 01_run_cellpose_pretrained_models.ipynb
 - Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a single microscopy slice.
 
 <img alt="Flowchart of the notebook for running all pre-trained models." src=".imgs/01_flowchart.svg"/>
 
-## 02_HITL_finetuning.ipynb
+### 02_HITL_finetuning.ipynb
 - Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
 
 <img alt="Flowchart of the notebook for finetuning a pre-trained model." src=".imgs/02_flowchart.svg"/>
 
-## 03_run_cellpose_single_model.ipynb
+### 03_run_cellpose_single_model.ipynb
 - Notebook to run a (finetuned) Cellpose model on one or more microscopy stacks.
 
-## 04_merge_3d_masks.ipynb
+### 04_merge_3d_masks.ipynb
 - Notebook to detect and merge 3D masks that are fragmented in the z-direction.
 
-## 05_filter_3d_masks.ipynb
+### 05_filter_3d_masks.ipynb
 - Notebook to perform quality control on the 3D masks for downstream processes.
 
-# Additional
+## Additional notebooks
 
-## model_output_comparison.ipynb
+### model_output_comparison.ipynb
 - Notebook to compare manual and predicted segmentations (precision, recall, F1-score, Jaccard Indices)
 
 
