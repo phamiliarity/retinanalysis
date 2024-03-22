@@ -1,4 +1,9 @@
-%file overview
-%instructions
+# Overview
+[complete flowchart]
 
-- 01_HITL_model_finetuning.ipynb
+# Description
+## 01_run_cellpose_pretrained_models.ipynb
+- Notebook to run pre-trained Cellpose models (v2.2.2) on an image.
+
+## 02_HITL_finetuning.ipynb
+- Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
