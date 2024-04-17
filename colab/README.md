@@ -1,7 +1,23 @@
 # Overview
+*Legend*
 <img alt="Legend for the flowchart" src=".imgs/legend.svg"/>
 
-## Main notebooks
+## Categories
+
+### Segmentation
+Notebooks for segmentation of nuclei and foci in (confocal) microscopy data.
+
+### Quality control
+Notebooks for filtering/refining masks.
+- Merging masks in Z-direction
+- Removing masks based on mask statistics (e.g., size, overlap)
+
+### Quantification
+Notebooks for quantitative analyses.
+- Comparison manual and predicted annotations
+- Signal intensities
+
+## Description
 ### 01_run_cellpose_pretrained_models.ipynb
 - Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a single microscopy slice.
 
@@ -21,7 +37,6 @@
 ### 05_filter_3d_masks.ipynb
 - Notebook to perform quality control on the 3D masks for downstream processes.
 
-## Additional notebooks
 
 ### model_output_comparison.ipynb
 - Notebook to compare manual and predicted segmentations (precision, recall, F1-score, Jaccard Indices)
