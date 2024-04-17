@@ -3,7 +3,9 @@
 <img alt="Legend for the flowchart" src=".imgs/legend.svg"/>
 
 ## Categories
-
+### Init
+Notebooks for optional pre-processing.
+Currently: a notebook to get x-y subsection(s) of stacks.
 ### Segmentation
 Notebooks for segmentation of nuclei and foci in (confocal) microscopy data.
 
