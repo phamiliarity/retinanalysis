@@ -1,5 +1,5 @@
 # Overview
-*Legend*
+*Legend*<br>
 <img alt="Legend for the flowchart" src=".imgs/legend.svg"/>
 
 ## Categories
@@ -16,8 +16,9 @@ Notebooks for filtering/refining masks.
 
 ### Quantification
 Notebooks for quantitative analyses.
-- Comparison manual and predicted annotations
-- Signal intensities
+- model_output_comparison.ipynb: Comparison manual and predicted annotations
+    - model_comparison_plots.ipynb: Visualising the output.
+- Signal intensities: *soon..*
 
 ## Description
 ### 01_run_cellpose_pretrained_models.ipynb
