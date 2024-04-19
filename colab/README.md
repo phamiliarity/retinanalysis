@@ -2,6 +2,9 @@
 *Legend*<br>
 <img alt="Legend for the flowchart" src=".imgs/legend.svg"/>
 
+*note: each notebook can be converted into a python script to run from the CLI*
+
+
 ## Categories
 ### Init
 Notebooks for optional pre-processing.
