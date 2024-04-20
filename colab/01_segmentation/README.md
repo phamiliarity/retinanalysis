@@ -1,5 +1,5 @@
 *Legend*<br>
-<img src="../.imgs/legend.svg" alt="Legend for the flowchart" width="250"/>
+<img src="../.imgs/legend.png" alt="Legend for the flowchart" width="250"/>
 <hr>
 
 # 01_run_cellpose_pretrained_models.ipynb
@@ -12,7 +12,7 @@ Useful for determining the best performing model out-of-the-box for further fine
 # 02_HITL_finetuning.ipynb
 Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
 
-![Flowchart of the notebook for finetuning a pre-trained model.](../.imgs/flowchart_HITL_model_finetuning.png)
+![Flowchart of the notebook for finetuning a pre-trained model.](../.imgs/flowchart_HITL-model-finetuning.png)
 
 # 03_run_cellpose_single_model.ipynb
 - Notebook to run a (finetuned) Cellpose model on one or more microscopy stacks.

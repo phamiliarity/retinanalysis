@@ -1,5 +1,5 @@
 *Legend*<br>
-<img src="../.imgs/legend.svg" alt="Legend for the flowchart" width="250"/>
+<img src="../.imgs/legend.png" alt="Legend for the flowchart" width="250"/>
 <hr>
 
 # get_subsection.ipynb
