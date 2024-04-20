@@ -1,4 +1,6 @@
-*Currently under construction*
+*Legend*<br>
+<img src="../.imgs/legend.svg" alt="Legend for the flowchart" width="250"/>
+<hr>
 
 # 01_run_cellpose_pretrained_models.ipynb
 - Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a single microscopy slice.
