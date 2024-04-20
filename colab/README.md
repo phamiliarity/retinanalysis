@@ -1,7 +1,9 @@
 # Description
 Interactive Python Notebooks for quantitative confocal microscopy analyses. Detailed descriptions can be found in the subdirectories.
 
-*Note: Developed in Google Colab; makes use of Forms functionality for easy user input. If used in Jupyter, this functionality is not available.*
+*Note: Developed in Google Colab with Colab-specific functionalities:
+    - Ability to connect to GPU.
+    - Forms functionality for easy user input.
 
 ## Overview
 ### [Initialise](./00_init)
