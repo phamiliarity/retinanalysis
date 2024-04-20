@@ -2,7 +2,7 @@
 <img src="../.imgs/legend.png" alt="Legend for the flowchart" width="250"/>
 <hr>
 
-# 01_run_cellpose_pretrained_models.ipynb
+# 01_run_2Dcellpose_modelzoo.ipynb
 Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a 2D microscopy slice.
 
 Useful for determining the best performing model out-of-the-box for further finetuning.
