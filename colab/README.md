@@ -6,36 +6,30 @@
 
 
 ## Categories
-### Init
+### Initialise
 Notebooks for optional pre-processing.
-Currently: a notebook to get x-y subsection(s) of stacks.
+- [**get_subsection.ipynb**](./00_init/get_subsection.ipynb): get x-y subsection(s) of stacks.
+
 ### Segmentation
 Notebooks for segmentation of nuclei and foci in (confocal) microscopy data.
+- [**01_run_2Dcellpose_pretrained_models.ipynb**](./01_segmentation/01_run_2Dcellpose_pretrained_models.ipynb): segment a 2D TIFF file with all available Cellpose models (v2.2.2)
+- [**02_HITL_model_finetuning.ipynb**](./01_segmentation/02_HITL_model_finetuning.ipynb): finetune a pre-trained Cellpose model using 2D TIFFs and manually-refined annotations.
+- [**03_run_cellpose_on_stack**](./01_segmentation/03_run_cellpose_on_stack.ipynb): segment a multiplane TIFF file using a pre-trained or custom Cellpose model.
+- [**foci_segmentation**](./01_segmentation/foci_segmentation.ipynb): segment foci in a multiplane TIFF file using heuristic intensity-based methods (otsu, watershed)
 
 ### Quality control
 Notebooks for filtering/refining masks.
-- Merging masks in Z-direction
-- Removing masks based on mask statistics (e.g., size, overlap)
+- [**placeholder**]():  merging masks in Z-direction
+- [**placeholder**](): removing masks based on mask statistics (e.g., size, overlap)
 
 ### Quantification
 Notebooks for quantitative analyses.
-- model_output_comparison.ipynb: Comparison manual and predicted annotations
-    - model_comparison_plots.ipynb: Visualising the output.
-- Signal intensities: *soon..*
+- [**model_output_comparison.ipynb**](./03_quantification): comparison between overlap of 2D labels. 
+    - [**model_comparison_plots.ipynb**](./03_quantification) : Visualising the output.
+- [**placeholder**](./03_quantification):  Signal intensities: *soon..*
 
 ## Description
-### 01_run_cellpose_pretrained_models.ipynb
-- Notebook to run pre-trained Cellpose models (v2.2.2) [1] on a single microscopy slice.
 
-<img alt="Flowchart of the notebook for running all pre-trained models." src=".imgs/01_flowchart.svg"/>
-
-### 02_HITL_finetuning.ipynb
-- Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop approach.
-
-<img alt="Flowchart of the notebook for finetuning a pre-trained model." src=".imgs/02_flowchart.svg"/>
-
-### 03_run_cellpose_single_model.ipynb
-- Notebook to run a (finetuned) Cellpose model on one or more microscopy stacks.
 
 ### 04_merge_3d_masks.ipynb
 - Notebook to detect and merge 3D masks that are fragmented in the z-direction.
