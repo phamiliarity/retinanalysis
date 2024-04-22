@@ -9,6 +9,12 @@ Framework to perform 3D quantitative analyses on confocal microscopy stacks.
 
 This repository contains all Python code for pre-processing images, 3D instance segmentations, quality control, quantification and data visualisation.
 
+## Contents
+- [Colab](./colab): directory containing Google Colab notebooks.
+- [Roadmap](./.roadmap.md): To-do list for the project.
+- [Conda environment .yaml](./cellpose-env_mac.yml)
+- [Pip req .txt](./colab_requirements.txt)
+
 ## Author's notes
 The workflow was developed for analysing samples from mouse retinal organoid tissue (hence the name 'RetinAnalysis'), but the general set-up is suited for any 3D analysis.
 
