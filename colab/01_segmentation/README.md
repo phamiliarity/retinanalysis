@@ -18,8 +18,9 @@ Notebook to finetune a pre-trained Cellpose model using a human-in-the-loop appr
 Notebook to run a (finetuned) Cellpose model on 3D microscopy data.
 ![Flowchart of the notebook for running Cellpose3D.](../.imgs/flowchart_run-3Dcellpose.png)
 
-# foci_segmentation.ipynb
-*Currently under construction...* 
+# 04_foci_segmentation.ipynb
+Notebook for (nuclear) detection using Otsu thresholding.
+
 
 # References
 1. Pachitariu, M., Stringer, C. Cellpose 2.0: how to train your own model. Nat Methods 19, 1634–1641 (2022). https://doi.org/10.1038/s41592-022-01663-4
