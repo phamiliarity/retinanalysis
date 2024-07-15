@@ -14,8 +14,8 @@ Notebooks for optional pre-processing.
 Notebooks for segmentation of nuclei and foci in (confocal) microscopy data.
 - **01_run_2Dcellpose_pretrained_models.ipynb**: segment a 2D TIFF file with all available Cellpose models (v2.2.2)
 - **02_HITL_model_finetuning.ipynb**: finetune a pre-trained Cellpose model using 2D TIFFs and manually-refined annotations.
-- **03_run_cellpose_on_stack**: segment a multiplane TIFF file using a pre-trained or custom Cellpose model.
-- **foci_segmentation**: segment foci in a multiplane TIFF file using heuristic intensity-based methods (otsu, watershed)
+- **03_run_3Dcellpose.ipynb**: segment a multiplane TIFF file using a pre-trained or custom Cellpose model.
+- **04_foci_segmentation.ipynb**: segment foci in a multiplane TIFF file using heuristic intensity-based methods (otsu, watershed)
 
 ### [Quality control](./02_quality_control/)
 Notebooks for filtering/refining masks.

@@ -11,9 +11,8 @@ This repository contains all Python code for pre-processing images, 3D instance 
 
 ## Contents
 - [Colab](./colab): directory containing Google Colab notebooks.
-- [Roadmap](./.roadmap.md): To-do list for the project.
-- [Conda environment .yaml](./cellpose-env_mac.yml)
-- [Pip req .txt](./colab_requirements.txt)
+- [Conda environment .yaml](./cellpose-env_mac.yml): cellpose conda yaml for Mac env
+- [Pip req .txt](./colab_requirements.txt): pypi modules used in Colab notebooks
 
 ## Author's notes
 The workflow was developed for analysing samples from mouse retinal organoid tissue (hence the name 'RetinAnalysis'), but the general set-up is suited for any 3D analysis.
