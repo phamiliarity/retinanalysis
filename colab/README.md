@@ -20,7 +20,7 @@ Notebooks for segmentation of nuclei and foci in (confocal) microscopy data.
 ### [Quality control](./02_quality_control/)
 Notebooks for filtering/refining masks.
 - **merging_masks_in_Z.ipynb**:  merging masks in Z-direction (interpolation)
-- **placeholder**: removing masks based on mask statistics (e.g., size, overlap)
+- **inspect_3Dmask_stats.ipynb**: retrieving mask statistics (e.g., diameter, volume) for QC
 
 ### [Quantification](./03_quantification/)
 Notebooks for quantitative analyses.
