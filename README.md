@@ -2,7 +2,7 @@
 > Author: Vina My Pham<br>
 Project supervisor: Robin van der Weide<br><br>
 MSc Bioinformatics internship - Kind group, Hubrecht Institute<br>
- January 15, 2024 to July 19, 2024
+ January 15, 2024 to July 26, 2024
 
 ## Project description
 Framework to perform 3D quantitative analyses on confocal microscopy stacks. 
